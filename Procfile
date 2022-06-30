@@ -1,0 +1,1 @@
+web : gunicorn pol:app --reload --workers 2 
